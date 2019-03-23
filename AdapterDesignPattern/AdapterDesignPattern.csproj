@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="EmployeeAdapter.cs" />
+    <Compile Include="ITarget.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThirdPartyEmployee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

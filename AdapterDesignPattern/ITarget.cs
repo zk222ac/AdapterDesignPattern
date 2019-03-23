@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace AdapterDesignPattern
 {
-    class Program
+    // 'ITarget' interface
+    interface ITarget
     {
-        static void Main(string[] args)
-        {
-        }
+        List<string> GetEmployees();
     }
 }
